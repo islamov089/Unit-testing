@@ -1,4 +1,4 @@
-function checkCondition(people) {
+function checkAgeInObject(people) {
     return people.every(person => person.age >= 18);
   }
-   module.exports = checkCondition;
+   module.exports = checkAgeInObject
