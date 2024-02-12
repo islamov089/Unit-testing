@@ -1,5 +1,5 @@
 const checkDate = require('./date');
-
+    
 test('Check date format: dd-mm-yyyy', () => {
     expect(checkDate('12-01-2022', 'dd-mm-yyyy')).toBe(true);
     expect(checkDate('32-01-2022', 'dd-mm-yyyy')).toBe(false);
@@ -22,13 +22,3 @@ test('Check date format: dd-mm-yyyy', () => {
     expect(checkDate('Jun 32, 20235', 'Mon,day, year')).toBe(false);
 
 });
-
-
-  
-
-
-
-
-
-
-
